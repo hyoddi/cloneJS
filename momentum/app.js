@@ -1,1 +1,5 @@
-console.log(545454); // 콘솔에 값을 출력
+const title = document.getElementById("title");
+const hellos = document.getElementsByClassName("hello");
+
+
+title.innerText = "Got U!"
